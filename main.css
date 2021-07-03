@@ -6,7 +6,6 @@ body{
 header{
     display: inline-block;
     width: 800px;
-    background-color: yellow;
     margin-left: calc((100% - 800px) / 2);
 }
 
@@ -36,7 +35,7 @@ a{
 a:last-of-type{
     margin-left: 15px;
     border-color: #9f9f9f;
-    border-radius: 16px;
+    border-radius: 20px;
 }
 
 main{
