@@ -8,8 +8,6 @@ header{
     width: 800px;
     background-color: yellow;
     margin-left: calc((100% - 800px) / 2);
-    margin-bottom: 30px;
-    
 }
 
 header > img{
@@ -18,6 +16,7 @@ header > img{
 }
 
 nav{
+    display: inline-block;
     float: right;
 }
 
@@ -28,29 +27,39 @@ a{
 main{
     display: inline-block;
     width: 800px;
-    background-color: thistle;
     margin-left: calc((100% - 800px) / 2);
-    
+    margin-right: calc((100% - 800px) / 2);
+    margin-top: 20px;
 }
 
 div{
-    width: 45%;
+    display: inline-block;
+    width: 38%;
     float: left;
+    margin-left: 4%;
+    margin-top: 48px;
+
 }
 
 h1{
-   font-size: 90px; 
-   margin: 0px;
+    display: inline-block;
+    font-size: 80px; 
+    margin: 0px;
+    color: #9f9f9f;
+    
 }
 
 p{
-    font-size: 32px;
+    display: inline-block;
+    font-size: 21px;
     margin: 0px;
+    color: bdbdbd;
 }
 
 main > img{
     display: inline-block;
-    width: 50%;
+    width: 46%;
     float: right;
+    margin-left: 8%;
     background-color: red;
 }
